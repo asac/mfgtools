@@ -77,6 +77,7 @@ Config::Config()
 	emplace_back(ConfigItem{"FBK:", nullptr, nullptr, NXP_VID, 0x0153});
 	emplace_back(ConfigItem{"FB:", nullptr, nullptr,  0x0525, 0xA4A5});
 	emplace_back(ConfigItem{"FB:", nullptr, nullptr,  0x18D1, 0x0D02});
+	emplace_back(ConfigItem{"FB:", "TIFB", "TIFB",  0x0451, 0x6165});
 	emplace_back(ConfigItem{"FB:", nullptr, nullptr,  BD_VID, 0x0001});
 	emplace_back(ConfigItem{"FB:", nullptr, nullptr,  NXP_VID, 0x0152});
 }
